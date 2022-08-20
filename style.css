@@ -1,0 +1,352 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  margin:0px;
+  padding:0px;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background-color: #F8F8FA;
+}
+/* header file starts here */
+header{
+  height: 500px;
+  background-color: #4618FE;
+}
+
+/* list of the navbar */
+nav{
+  float: right;
+  margin: 20px;
+}
+.nav-item{
+  color: #ffffff;
+  margin-right: 30px;
+  cursor:pointer;
+}
+
+.nav-item-active{
+  color: #4618FE;
+  background-color: #fff;
+  margin-right: 30px;
+  padding: 2.5px 10px;
+  border-radius: 5px;
+  cursor:pointer;
+}
+
+/* navbar logo */
+
+.logo{
+  padding: 40px 0px 0px 40px;
+  cursor: pointer;
+}
+
+/* the text section */
+.header-text{
+  float: left;
+  padding-top:100px;
+  padding-left:40px ;
+  color: #fff;
+}
+
+.header-text h2{
+  font-size: 45px;
+}
+.header-text p{
+  padding-top: 5px;
+  font-size: larger;
+}
+
+
+/* Right side of the image */
+.header-image{
+  float: right;
+  height: 500px;
+}
+
+/*---------- Header ends --------*/
+
+
+/* -------- Compaines items -------- */
+.companies{
+  padding: 30px 40px ;
+  display: flex;
+  justify-content: space-between;
+}
+
+.company-items{
+  text-decoration: none;
+  font-family: Righteous;
+  font-size: 25px;
+  color: #000;
+}
+
+
+/*------ API section starts here -------*/
+.api{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* heading in api section */
+.api-heading{
+  font-size: 45px;
+  font-weight: bold;
+}
+
+/* card in the heading section */
+.cards{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* css on the cards internally */
+.card-active{
+  padding: 30px 15px;
+  border-radius: 10px;
+}
+.card-active:hover{
+  background-color: #fff;
+  box-shadow: 0px 0px 10px grey;
+}
+
+.card{
+  padding: 35px 20px;
+  border-radius: 10px;
+}
+
+.card:hover{
+  background-color: #fff;
+  box-shadow: 0px 0px 10px grey;
+  cursor: pointer;
+}
+
+/*--------- Blog -----------*/
+.blog-heading{
+  padding: 50px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* border: 2px solid red; */
+}
+/* blog heading */
+.blog-heading h1{
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+/* blog link right side */
+.blog-heading a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/*----- Blog Cards Section ----*/
+.blog-cards{
+  padding: 50px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  position: relative;
+}
+
+/* complete card */
+.blog-card{
+  background-color: #fff;
+  border-radius: 70px 10px 10px 10px;
+  width: 650px;
+}
+
+/* image used in card */
+.blog-image{
+  float: left;
+  height: 100%;
+}
+
+.blog-image img{
+  height: 100%;
+  width: 100%;
+}
+
+/* content in card */
+.blog-content{
+  margin-top: 30px;
+  padding-left: 300px;
+  padding-right: 25px;
+}
+
+.blog-content h6{
+  color: #4618FE;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.blog-content h3{
+  margin-bottom: 10px;
+  font-weight: 1000;
+  font-size: 25px;
+}
+.blog-content small{
+  margin-bottom: 10px;
+}
+
+/* grey circle in card */
+.blog-bottom{
+  float: left;
+  margin-left: 50px;
+  transform: translateY(35px);
+
+}
+.blog-card-bottom-image{
+  height: 70px;
+}
+
+/* Author name in card */
+.blog-author{
+float:right;
+margin-top: 25px;
+margin-right: 70px;
+}
+
+/* ----- FAQ Section ------ */
+.faq-section{
+ display: flex;
+ background-color: #E9EDFF;
+ justify-content: space-between;
+ height: 350px;
+}
+
+.faq-content{
+  width: 700px;
+  padding: 50px;
+}
+
+.faq-content h2{
+  font-size: 30px;
+}
+.faq-content h4:nth-child(2){
+  font-size: 12px;
+  padding: 10px 0px 20px 0px;
+  color: #0E0E10;
+}
+
+.faq-content button{
+  padding: 5px 10px;
+  margin-top: 20px;
+  background-color: #5A31FC;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px; 
+  cursor: pointer;
+}
+
+/* FAQ image */
+.faq-image{
+  width: 700px;
+}
+.faq-image img{
+  width: 100%;
+  height: 100%;
+}
+
+/* ---- FAQ section ends ------ */
+
+
+/* ---- Download section ----- */
+.download-section{
+  margin: 20px 0px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.download-content h1{
+  font-weight: bolder;
+}
+.download-content h1 span{
+  font-weight: lighter;
+}
+
+/* download email */
+.download-email{
+  padding: 5px 5px 5px 30px;
+  background-color: #E9EDFF;
+  border-radius: 30px;
+}
+
+/* Input form */
+.download-email input{
+  border: none;
+  background-color: #E9EDFF;
+  margin-right: 30px;
+  width: 200px;
+}
+
+.download-email input:focus{
+  outline: none;
+}
+
+/* download button */
+.download-email button{
+  padding: 5px 15px;
+  margin-left: 50px;
+  background-color: #5A31FC;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 15px; 
+  cursor: pointer;
+}
+
+
+/* ------- Footer Section ------- */
+.footer-section{
+  padding: 70px 50px;
+  background-color: #4718FE;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list , .logos-list{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.list-items{
+  margin-right: 20px;
+}
+
+/* left footer section */
+.footer-logo{
+  margin-bottom: 20px;
+  height: 55px;
+}
+
+
+/*  Right footer section */
+.footer-logos{
+  margin-right: 20px;
+  margin-bottom: 20px;
+  height: 40px;
+}
+
+
+
+
+
+
